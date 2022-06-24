@@ -7,8 +7,8 @@ accente-blue: #00C4F0;
  */
 :root{
     --text-color: #E4E4E4;
-    --bg-primary-color: linear-gradient(101.56deg, #2C2C2C 1.56%, #1C1C1C 95.55%);
-    --bg-secondary-color: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+    --bg-secondary-color: linear-gradient(101.56deg, #2C2C2C 1.56%, #1C1C1C 95.55%);
+    --bg-primary-color: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
     --accente-orange: linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
     --accente-blue: #00C4F0;
 }
@@ -23,15 +23,60 @@ body{
     letter-spacing: 0.01em;
 
 }
+/* BG */
+.section.portfolio, .header, section.hello{
+    background: var(--bg-secondary-color);
+}
+
+/* Titles */
+.section-title{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1.125;
+    align-items: center; 
+}
+.portfolio-title{
+    color: white;
+}
+.hello-title{
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.14;
+}
+.portfolio-item-title{
+    color: white;
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 1.21;  
+}
+
+/* Text */
+.portfolio-item-text{
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+/* Links */
 .link{
     color:  inherit;
     text-decoration: none;
 }
+.portfolio-item-link{
+    font-size: 18px;
+    line-height: 21px;
+    color: #E2A100;
+}
+
+/* Lists */
 .list{
     list-style: none;
 
     padding-left: 0%;
 }
+
+/* Buttons */
 .btn{
     box-shadow: 0px 2px 13px rgba(226, 158, 0, 0.48);
     background: var(--accente-orange);
