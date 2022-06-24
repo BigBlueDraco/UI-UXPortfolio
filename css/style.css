@@ -23,6 +23,9 @@ body{
     letter-spacing: 0.01em;
 
 }
+.no-marging{
+    margin: 0;
+}
 /* BG */
 .section.portfolio, .header, section.hello{
     background: var(--bg-secondary-color);
@@ -42,6 +45,7 @@ body{
     font-weight: 700;
     font-size: 72px;
     line-height: 1.14;
+
 }
 .portfolio-item-title{
     color: white;
@@ -73,7 +77,9 @@ body{
 .list{
     list-style: none;
 
-    padding-left: 0%;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;    
 }
 
 /* Buttons */
@@ -99,4 +105,11 @@ body{
     width: 60px;
     height: 60px;
     border-radius: 100%;
+}
+.header-flex{
+    margin-left: 200px;
+    margin-right: 200px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
