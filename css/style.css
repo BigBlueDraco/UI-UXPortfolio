@@ -114,9 +114,20 @@ body{
     border-radius: 100%;
 }
 .header-flex{
-    margin-left: 200px;
-    margin-right: 200px ;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list{
+    display: inline-block;
+    margin-right: 100px;
+}
+.nav-link{
+    display: inline-block;
+    padding-right: 145px;
+}
+.nav-flex{
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
