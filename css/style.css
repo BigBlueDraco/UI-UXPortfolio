@@ -131,3 +131,33 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+
+.hello-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.skils-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.portfolio-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.hero-flex-text{
+    text-align: left;
+    width: 500px;  
+}
+.hero-flex-foto{
+    text-align: center;
+    flex-grow: 2;
+}

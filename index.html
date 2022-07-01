@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/normalize.css">
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,300;1,500&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,300;1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
@@ -31,11 +31,13 @@
     </header>
     <main>
         <section class="section hello">
-            <div class="container">    
-                <h1 class="section-title hello-title no-marging">I'm</h1>
-                <p>Ui/ux</p>
-                <img src="" alt="Foto" class="hello-foto">
-                <button type="button" class="btn contact-me">Contact me</button>
+            <div class="container hello-flex">    
+                <div class="hero-flex-text">
+                    <h1 class="section-title hello-title no-marging">I'm</h1>
+                    <p>Ui/ux Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae repellendus voluptas tempora. Quaerat odit delectus vitae quisquam nostrum expedita provident vero ratione laboriosam unde! Accusamus aliquam iusto dolorum ab quae?</p>
+                    <button type="button" class="btn contact-me">Contact me</button>
+                </div>     
+                <img src="" alt="Foto" class="hello-foto hero-flex-foto">
             </div> 
         </section>
     
@@ -44,7 +46,7 @@
             <div class="container">
 
                 <h2 class="section-title visuali-hiden no-marging">Skils</h2>
-                <ul class="list">
+                <ul class="list skils-flex">
                     <li>
                         <img src="" alt="Foto">
                         Product Design
@@ -83,28 +85,31 @@
             <div class="container">
 
             <h2 class="section-title prtfolio-title no-marging">Portfolio</h2>
-            <button type ="btn" class="btn portfolio-button">&#129044;</button>
-            <ul class="list portfolio-list">
-                <li>
-                    <img src="" alt="">
-                    <h3 class="portfolio-item-title">Portfolio 1</h3>
-                    <p class="portfolio-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ab quisquam accusantium ut beatae porro aut autem? Libero asperiores ullam, error quisquam porro obcaecati, maiores consequatur sunt mollitia cupiditate molestias.</p>
-                    <a href="" class="link portfolio-item-link">More</a>
-                </li>
-                <li>
-                    <img src="" alt="">
-                    <h3 class="portfolio-item-title">Portfolio 1</h3>
-                    <p class="portfolio-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ab quisquam accusantium ut beatae porro aut autem? Libero asperiores ullam, error quisquam porro obcaecati, maiores consequatur sunt mollitia cupiditate molestias.</p>
-                    <a href="" class="link portfolio-item-link">More</a>
-                </li>
-                <li>
-                    <img src="" alt="">
-                    <h3 class="portfolio-item-title">Portfolio 1</h3>
-                    <p class="portfolio-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ab quisquam accusantium ut beatae porro aut autem? Libero asperiores ullam, error quisquam porro obcaecati, maiores consequatur sunt mollitia cupiditate molestias.</p>
-                    <a href="" class="link portfolio-item-link">More</a>
-                </li>
-            </ul>
-            <button type ="button" class="btn portfolio-button">&#129046;</button>
+            <div class="portfolio-flex">
+                <button type ="btn" class="btn portfolio-button">&#129044;</button>
+                <ul class="list portfolio-list">
+                    <li>
+                        <img src="" alt="">
+                        <h3 class="portfolio-item-title">Portfolio 1</h3>
+                        <p class="portfolio-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ab quisquam accusantium ut beatae porro aut autem? Libero asperiores ullam, error quisquam porro obcaecati, maiores consequatur sunt mollitia cupiditate molestias.</p>
+                        <a href="" class="link portfolio-item-link">More</a>
+                    </li>
+                    <li>
+                        <img src="" alt="">
+                        <h3 class="portfolio-item-title">Portfolio 1</h3>
+                        <p class="portfolio-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ab quisquam accusantium ut beatae porro aut autem? Libero asperiores ullam, error quisquam porro obcaecati, maiores consequatur sunt mollitia cupiditate molestias.</p>
+                        <a href="" class="link portfolio-item-link">More</a>
+                    </li>
+                    <li>
+                        <img src="" alt="">
+                        <h3 class="portfolio-item-title">Portfolio 1</h3>
+                        <p class="portfolio-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ab quisquam accusantium ut beatae porro aut autem? Libero asperiores ullam, error quisquam porro obcaecati, maiores consequatur sunt mollitia cupiditate molestias.</p>
+                        <a href="" class="link portfolio-item-link">More</a>
+                    </li>
+                </ul>
+                <button type ="button" class="btn portfolio-button">&#129046;</button>
+            </div>
+            
             </div>
         </section>
     </main>
@@ -112,7 +117,7 @@
 
     <footer class="footer">
 
-    <div class="container">
+    <div class="container footer-flex">
 
         <ul class="list">
             <li>Home</li>
@@ -120,20 +125,25 @@
             <li>Portfolio</li>
             <li>Contact</li>
         </ul>
-        <p>Contact:</p>
-        <ul class="list">
-            <li>
-                Email: <a href="mailto:abc@examp;e.com" class="link">abc@examp;e.com</a>
-            </li>
-            <li>
-               Git: <a href="" class="link">github</a>
-            </li>
-            <li>
-                Calls: <a href="tel:+3801111111111" class="link">+3801111111111</a>
-            </li>
-        </ul>
-        <img src="" alt="Logo" class="logo">
-        <a href="" class="logo link"></a>
+        <div>
+            <p>Contact:</p>
+            <ul class="list">
+                <li>
+                    Email: <a href="mailto:abc@examp;e.com" class="link">abc@examp;e.com</a>
+                </li>
+                <li>
+                   Git: <a href="" class="link">github</a>
+                </li>
+                <li>
+                    Calls: <a href="tel:+3801111111111" class="link">+3801111111111</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <img src="" alt="Logo" class="logo">
+            <a href="" class="logo link"></a>
+        </div>
+        
 
     </div>
 
